@@ -1,0 +1,4 @@
+# FragmentApplication2
+切换fragment tab,为了避免崩溃以后重复，所有的fragment需要从getSupportFragmentManager中通过findFragmentByTag取出来
+从getSupportFragmentManager中取出来的片段，能确保唯一性
+注意的是：在添加片段的时候就得使用3个参数的，为其添加Ťag.
